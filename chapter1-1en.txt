@@ -98,7 +98,6 @@
 "Hiro, I'll take the lady to go."
 "Neko-san already did that joke."
 @erase_chara
-@FLAG=CRCTF{I cut down her gag in a single strike}
 　I cut down her gag in a single strike. Lily seems to take being compared to Neko-san really badly.
 　It's now three in the afternoon... I had finished off the sandwiches, and Izumi and I were both relaxing at the counter when, as promised, Lily showed up.
 　Normally, she would just get her booth at the counter and move on, but that changed the moment Izumi came back from the back room.
