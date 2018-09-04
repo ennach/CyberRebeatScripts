@@ -1,16 +1,27 @@
+@new bg=bgNetCafe01 time=500
+@chara_rise ch=k01
+@name ch=香奈 type=kana voice=
 "By the way, are you going out to eat now, Yoshino-san?"
 "Well, I guess so. I was kind of thinking of eating from the stock in my booth."
+@chara ch=k06
+@name ch=香奈 type=kana voice=
 "Stock? You have stock?"
 "Um, well, you know those nutritional bars? That stuff business people eat when they don't have time to eat. It's just that kind of stuff."
+@chara ch=k05
+@name ch=香奈 type=kana voice=
 "I see... But I don't think those should replace proper meals..."
 "When you're hungry, you're hungry."
 　When you're short on money, you can kind of survive on those hard biscuits. It's quite the strain, though, both mentally and physically. Of course, taking food from Kyouko-san's stock is just as stressful.
 　But I pay that back with physical labor.
+@chara ch=k16
+@name ch=香奈 type=kana voice=
 "Um, well, if you don't mind... Um, I brought something for you."
 "Hmm?"
 　Izumi heads into the back and comes out carrying a small bag.
 　No, wait, it's actually a pretty, little picnic basket. When she opens the lid, I see a bunch of different kinds of sandwiches, all neatly lined up.
 "Wait, did you make these?"
+@chara ch=k15
+@name ch=香奈 type=kana voice=
 "Yes, I had some time in the morning... And well, would you like some?"
 "If you don't mind, I guess. If you have extras."
 　She holds out the basket to me and I grab what looks to be a sandwich with tomato and cucumber in it. It feels nice and cool to the touch. She had probably kept it inside that refrigerator that Kyouko-san uses. At least they didn't smell of beer.
@@ -19,121 +30,227 @@
 　It's averagely delicious.
 　Okay, it's really good. Is she an angel?
 "Eh? Can I eat all of these?"
+@chara ch=k05
+@name ch=香奈 type=kana voice=
 "Ah, yes, I've already eaten lunch... Um, well, how does it taste?"
 "Good. Delicious. Good enough to make an Englishman faint with one bite."
+@chara ch=k03
+@name ch=香奈 type=kana voice=
 "I'm glad you like it. If you want, I can make some more when I have the chance."
 "Really?!"
 　I lick my lips... And not just because of the sandwiches.
+@chara ch=k13
+@name ch=香奈 type=kana voice=
 "Yes, I like cooking, and so next time, we'll have Misa and the others try some as well."
 "Ah, she probably doesn't eat properly either. I don't know how she'll react if she's with me, though."
+@chara ch=k05
+@name ch=香奈 type=kana voice=
 "Um, so does that mean that the two of you really don't...?"
 "Ah, you would be worried about that after seeing what happened yesterday."
 　I finish off my second sandwich and grab some melon soda, quenching my thirst with the sweet, cold liquid.
 "I don't really know why either. It's been like that since we first met."
+@chara ch=k06
+@name ch=香奈 type=kana voice=
 "Really?"
 "Yeah. We said that we don't get along, but it's more like she's just constantly pushing me away. Like she's a tsundere."
+@chara ch=k16
+@name ch=香奈 type=kana voice=
 "I see, so you don't hate her or anything?"
 "Do I look like I hate her?"
+@chara ch=k01
+@name ch=香奈 type=kana voice=
 "No."
 "That's how it is. She just seems to hate me or something... I don't really know. Maybe we were enemies in a past life or something."
+@chara ch=k06
+@name ch=香奈 type=kana voice=
 "And that's why you say tsundere?"
 "It's tough being popular."
 　By the way, tsundere means that a person likes someone but instead acts like they hate them.
 　I thought it was just slang seen on the internet, but if Miss Analog here has heard of it, then it must've appeared elsewhere.
 　Neither of us actually think she's tsundere, of course.
 　The part about me being popular is true, though! I'm seriously serious. Doubting me is like doubting that Italians eat pasta.
+@chara ch=k16
+@name ch=香奈 type=kana voice=
 "Misa-san... She said that if I was free, I should visit her booth, but I'm a little nervous. When do you think she'll be awake?"
 "Hmm, no clue. She lives on her own timezone... Ah well, you can easily tell if she's awake."
+@chara ch=k06
+@name ch=香奈 type=kana voice=
 "How?"
 "She often grabs cola from the machine. Just wait there and she'll show herself soon enough. Like a worm waiting for rain."
+@chara ch=k01
+@name ch=香奈 type=kana voice=
 "You said something like that yesterday... Does she really like cola that much?"
 "She's a junkie. She absorbs cola through her lungs instead of her stomach."
+@chara ch=k05
+@name ch=香奈 type=kana voice=
 "That doesn't sound very healthy."
 "Her blood is probably jet black."
+@bgm_off
 　I gulp down my melon soda.
 　Any black liquid is just ominous. How can anyone drink that stuff?
 　Green is so much safer. You can even taste Mother Nature in the artificial sweetener.
 　After that, we talk for a bit more as I chow down on the sandwiches.
+@black_out
 *TEST|
+@new bg=bgNetCafe01 bgm=bgm001 time=500
+@chara_rise ch=l14
+@name ch=リリー type=lily voice=
 "Hiro, I'll take the lady to go."
 "Neko-san already did that joke."
+@erase_chara
+@FLAG=CRCTF{I cut down her gag in a single strike}
 　I cut down her gag in a single strike. Lily seems to take being compared to Neko-san really badly.
 　It's now three in the afternoon... I had finished off the sandwiches, and Izumi and I were both relaxing at the counter when, as promised, Lily showed up.
 　Normally, she would just get her booth at the counter and move on, but that changed the moment Izumi came back from the back room.
 　The reason, of course, being the maid dress.
+@chara_rise ch=l13
+@name ch=リリー type=lily voice=
 "Guh, what am I supposed to do? That outfit is just too cute. I have to accept that Neko and I would react the same. It suits you amazingly well, Kana."
+@chara12 ch1=l13 ch2=k14a
+@name ch=香奈 type=kana voice=
 "Ah, umm, cute is a little... Um, thank you. Um, here."
+@chara1 ch=l14a
+@name ch=リリー type=lily voice=
 "And you're just so graceful. You must be what they call a proper lady."
 "Except she's in a maid dress."
 　The blushing Izumi and the beaming Lily.
 　I feel like if I wasn't here, Lily would just immediately glomp her.
+@chara1 ch=l03
+@name ch=リリー type=lily voice=
 "I'll accept you sitting next to her, Hiro, but if it was Kuro sitting there, then I'd immediately steal her away."
 "You like her that much?"
+@chara1 ch=l04
+@name ch=リリー type=lily voice=
 "Of course! Don't you think that she's cute?"
 　It's not like I don't.
 "Anyway, I got you your usual booth, so just hurry up and go. Keep this up, and Izumi's cheeks are going to turn into apples."
+@chara1 ch=l14a
+@name ch=リリー type=lily voice=
 "The forbidden fruit?"
 "I don't get it."
+@chara2 ch=k04a
+@name ch=香奈 type=kana voice=
 "U-Ummm. I was in the middle of preparing food..."
+@chara1 ch=l05
+@name ch=リリー type=lily voice=
 "Oh, sorry 'bout that. Let's talk again later, okay?"
+@chara2 ch=k14a
+@name ch=香奈 type=kana voice=
 "O-Okay, well then, excuse me for a moment. Haah..."
+@erase_chara
 　Rubbing her blushing cheeks, Izumi walks off into the back room.
 　The reason for that was obviously Lily.
+@chara_rise ch=l04a
+@name ch=リリー type=lily voice=
 "She really is cute."
 "She was like that at the pizza place as well."
+@chara ch=l01
+@name ch=リリー type=lily voice=
 "Well, obviously. People like that don't change much based on the situation."
 　I'm impressed you can tell.
+@chara12 ch1=l01 ch2=m01
+@name ch=ミサ type=mai voice=
 "Hey."
+@chara1 ch=l11
+@name ch=リリー type=lily voice=
 "Oh, Misa. Good day to you."
+@chara2 ch=m02a
+@name ch=ミサ type=mai voice=
 "Ah, Lily. Sorry, but I'm not feeling up for it. Or, more importantly, that thing."
 　Misa suddenly thrusts her chin in my direction.
 　She's even ruder than me.
 "Didn't anyone ever tell you that you shouldn't point your chin at people?"
+@chara2 ch=m13a
+@name ch=ミサ type=mai voice=
 "I was told not to point using my fingers, but no one said anything about using my chin."
 "Using your chin is worse!"
+@chara2 ch=m02a
+@name ch=ミサ type=mai voice=
 "More importantly, the cola's run out. Hurry up and refill it."
 "Sorry, but our newcomer's currently busy with other work. Please wait for her to finish."
+@chara1 ch=l02
+@name ch=リリー type=lily voice=
 "That's right, Misa, just wait a bit."
+@chara2 ch=m01
+@name ch=ミサ type=mai voice=
 "Why are you on his side, Lily?"
+@chara1 ch=l01
+@name ch=リリー type=lily voice=
 "Parental affection."
 "Feels more like there's an ulterior motive."
+@chara2 ch=m02
+@name ch=ミサ type=mai voice=
 "I don't care... If Kana can't do it, then you should just do it."
 "If there's no cola, just drink melon soda."
+@chara2 ch=m01a
+@name ch=ミサ type=mai voice=
 "That barely counts as a drink."
 "You'd go that far?!"
+@chara1 ch=l02
+@name ch=リリー type=lily voice=
 "They say that sweets can't replace bread, you know."
+@chara2 ch=m04
+@name ch=ミサ type=mai voice=
 "I only need cola, though... Well, whatever, I'm going for a walk."
 "Rare to see you go for a walk."
 　Unless it was really important, Amamiya would never leave this place.
 　I guess running out of cola qualified as something really important.
 　Or so I thought.
+@chara2 ch=m01
+@name ch=ミサ type=mai voice=
 "I thought I'd check out that place where the fire was."
 "Fire?"
+@chara1 ch=l12
+@name ch=リリー type=lily voice=
 "Oh? I thought you were acting strangely calm... Hiro, didn't you know?"
+@bgm_off
 　They look surprised.
 　Lily and Amamiya quickly exchange glances.
+@chara1 ch=l01
+@name ch=リリー type=lily voice=
 "It was on the news. An office building near the station caught fire. A publishing company burnt down."
+@chara2 ch=m11
+@name ch=ミサ type=mai voice=
 "Seishin Publishers."
+@chara1 ch=l12
+@name ch=リリー type=lily voice=
 "Ah, yeah, that's what it was called."
 　...Eh?
 　Seishin Publishers?
 　Isn't that where Tachibana works-
+@chara2 ch=m14
+@name ch=ミサ type=mai voice=
 "It's on TV right now."
+@erase_chara
 　Amamiya reaches over and switches on the TV behind the counter. It's something that I convinced Neko-san to install for me to kill time during late shifts.
 　It's quiet enough that you can't hear it from the booth area.
 　I flip through the channels until a familiar building quickly appears on screen.
+@name type=announcer voice=
 "This is where the incident occurred. Early this morning, the fourth floor of this office building caught fire. Two people working at the time were killed, while four more have received serious injuries from the fire."
 　-Killed?
 　Without pausing, the announcer continues the report.
 　At the same time, text appears on the screen.
+@name type=announcer voice=
 "The victims were-"
+@name type=announcer voice=
 "Yoshihiko Harada, editor-in-chief at Seishin Publishers."
+@name type=announcer voice=
 "Nae Tachibana, editor."
+@name type=announcer voice=
 "Another employee, Tanaka, is also in critical condition-"
+@name
 "----"
+@name
 "----"
+@name
 "----"
 　I could feel it.
 　Somewhere in the depths of my consciousness, someone was calling out.
+@black_out
 
+@new
+@message_on
 　We were facing a legend.
+@black_out
+@video storage=OP
+@black_out
